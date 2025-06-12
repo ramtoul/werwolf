@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("https://DEIN-BACKEND.up.railway.app"); // <- Anpassen
+const socket = io("https://werwolf-production.up.railway.app"); // <- Anpassen
 
 function App() {
   useEffect(() => {
