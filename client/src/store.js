@@ -1,0 +1,1 @@
+// Zustand-Store für Spieler, Phasen, Rollen etc.

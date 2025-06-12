@@ -1,0 +1,1 @@
+// Komponente für Spiel beitreten / erstellen
