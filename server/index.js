@@ -19,7 +19,7 @@ app.get("/", (req, res) => {
 });
 
 io.on("connection", (socket) => {
-  console.log("🔌 Neue Verbindung:", socket.id);
+  console.log("🔌 Verbindung:", socket.id);
   socket.on("ping", () => socket.emit("pong"));
 });
 
