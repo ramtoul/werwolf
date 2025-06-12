@@ -1,14 +1,15 @@
-
 import { useEffect } from "react";
 import { io } from "socket.io-client";
-const socket = io("http://localhost:4000");
+
+const socket = io("https://DEIN-BACKEND.up.railway.app"); // <- Anpassen
 
 function App() {
   useEffect(() => {
-    socket.on("pong", () => console.log("Pong erhalten"));
+    socket.on("pong", () => console.log("Pong empfangen"));
     socket.emit("ping");
   }, []);
-  return <div className="p-4">Werwölfe-App läuft!</div>;
+
+  return <div className="p-4 text-xl">🎭 Werwölfe-App läuft!</div>;
 }
 
 export default App;

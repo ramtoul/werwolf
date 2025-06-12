@@ -1,15 +1,5 @@
-
-# Ignoriere Node-Module und Build-Output
 node_modules/
 build/
-
-# Vercel und andere lokale Konfigurationen
 .vercel/
 .env
-
-# IDEs
 .vscode/
-.idea/
-
-# Sonstiges
-.DS_Store
